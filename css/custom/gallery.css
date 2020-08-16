@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(150, 160, 80, 0.6)) no-repeat;
+}
+
+
+/*----------------------------------------------------------*/
+
+.header {
+    height: 70px;
+    position: relative;
+    border-bottom: 1px solid #262626;
+}
+
+.logo {
+    position: absolute;
+    left: 1%;
+    top: 14%;
+}
+
+.logo::after {
+    content: attr(data-name);
+}
+
+.login-link {
+    position: absolute;
+    right: 1%;
+    top: 32%;
+}
+
+
+/*----------------------------------------------------------*/
+
+.banner {
+    position: relative;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.banner:hover {
+    opacity: 0.9;
+}
+
+.banner span {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    color: white;
+}
+
+
+/*----------------------------------------------------------*/
+
+.gallery .box {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.gallery .box .imgBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .box .imgBox img {
+    transition: transform 1s;
+    width: 100%;
+    height: 350px;
+}
+
+.gallery .box .imgBox:hover img {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery .box {
+        padding-top: 15px;
+    }
+}
+
+
+/* .gallery .box::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(251, 30, 78, 0.212);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+
+/*----------------------------------------------------------*/
+
+.footer {
+    margin-top: 10px;
+    border-top: 1px solid #262626;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    color: rgb(10, 67, 124);
+}

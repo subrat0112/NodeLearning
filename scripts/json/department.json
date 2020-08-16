@@ -1,0 +1,52 @@
+[
+    {
+        "dept_id": 1,
+        "dept_name": "Support",
+        "active": true
+    },
+    {
+        "dept_id": 2,
+        "dept_name": "Product Management",
+        "active": true
+    },
+    {
+        "dept_id": 3,
+        "dept_name": "Infrastructure",
+        "active": true
+    },
+    {
+        "dept_id": 4,
+        "dept_name": "Operations",
+        "active": true
+    },
+    {
+        "dept_id": 5,
+        "dept_name": "Engineering",
+        "active": true
+    },
+    {
+        "dept_id": 6,
+        "dept_name": "Human Resources",
+        "active": true
+    },
+    {
+        "dept_id": 7,
+        "dept_name": "Legal",
+        "active": false
+    },
+    {
+        "dept_id": 8,
+        "dept_name": "Accounting",
+        "active": true
+    },
+    {
+        "dept_id": 9,
+        "dept_name": "Marketing",
+        "active": true
+    },
+    {
+        "dept_id": 10,
+        "dept_name": "Sales",
+        "active": true
+    }
+]
